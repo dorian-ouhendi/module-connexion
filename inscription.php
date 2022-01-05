@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $co = mysqli_connect('localhost','root','','module-connexion');
+  $co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi module-connexion');
   $requete = mysqli_query($co,"SELECT * FROM `utilisateurs`");
   $requete1 = mysqli_fetch_all($requete, MYSQLI_ASSOC);
   if(!empty($_POST['login'])&& !empty($_POST['prenom'])&& !empty($_POST['nom']) &&!empty($_POST['password']) &&!empty($_POST['passwordv'])){

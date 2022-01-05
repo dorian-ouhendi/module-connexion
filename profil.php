@@ -1,6 +1,6 @@
 <?php
 session_start();
-$co = mysqli_connect('localhost','root','','module-connexion');
+$co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi module-connexion');
 $login_data = $_SESSION['login'];
 $verif_user = mysqli_query($co,"SELECT * FROM `utilisateurs` WHERE `login`= '$login_data'");
 $result_select_data = mysqli_fetch_all($verif_user, MYSQLI_ASSOC);
