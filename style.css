@@ -241,4 +241,19 @@
   .wallpaper h2 {
     font-size: 23vw; 
   }
+  .form-box {
+    width: 100vw;
+    height: 100vh;
+  }
+  .form-container {
+    width: 60vw;
+    height: 70vh;
+  }
+  .form-container h3 {
+    font-size: 5vw;
+    margin-top: 1%;
+  }
+  .infos {
+    font-size: 4vw;
+  }
 }
