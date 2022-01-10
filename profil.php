@@ -48,9 +48,6 @@ $pass_data = $result_select_data[0]['password'];
                if(empty($result_verif_login) || ($result_select_data[0]['id'] == $result_verif_login[0]['id'])){    
            
                   $requete_update_data = mysqli_query($co, "UPDATE `utilisateurs` SET `login`='$login',`prenom`='$prenom',`nom`='$nom',`password`='$password' WHERE `login` = '$login_data'");
-            //       // $requete = mysqli_query($co, "UPDATE `utilisateurs` SET login = '$login', prenom = '$prenom', nom = '$nom', password = '$password' WHERE login = $login_data");
-            //       //   if($requete == 1){
-            //       // }
                   $request = mysqli_query($co, "SELECT*FROM utilisateurs WHERE login = '$login'");
                   $result = $request-> fetch_array(MYSQLI_ASSOC);
                   unset($_POST);

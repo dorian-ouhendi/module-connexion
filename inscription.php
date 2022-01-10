@@ -26,19 +26,6 @@
     else $message = 'Veuillez mettre les mêmes mot de passe';
   }
   else $message= 'remplir tout les champs';
-//   if(isset($_POST['prenom'])){
-// $index = 0;
-//   while(isset($requete1[$index])){
-//     if($_POST['prenom']== $requete1[$index]['prenom']){
-//       echo $requete1[$index]['prenom'].' '.$requete1[$index]['nom'];
-//       break;
-//     }
-//     elseif($requete1[$index]==$requete1[7]){
-//       echo "j'ai pas trouvé !";
-//     }
-//     $index = $index +1;
-//   }
-// }
 ?>
 <!DOCTYPE html>
 <html lang="fr">
