@@ -1,6 +1,7 @@
 <?php
 session_start();
-$co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi module-connexion'); 
+$co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi_module-connexion');
+// $co = mysqli_connect('localhost','root','','module-connexion');
 $requete = mysqli_query ($co, "SELECT * FROM `utilisateurs`");
 ?>
 <!DOCTYPE html>

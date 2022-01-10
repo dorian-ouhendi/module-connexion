@@ -3,7 +3,8 @@ session_start();
 
 if(isset($_POST['login']) && isset($_POST['password'])){
 
-    $co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi module-connexion');
+    $co = mysqli_connect('localhost:3306','Lira','!Hj67oj1','dorian-ouhendi_module-connexion');
+    // $co = mysqli_connect('localhost','root','','module-connexion');
     $login_data = $_POST['login'];
     $verif_user = mysqli_query($co,"SELECT `login` FROM `utilisateurs` WHERE `login`= '$login_data'");
     $result_verif_user = mysqli_fetch_all($verif_user, MYSQLI_ASSOC);

@@ -22,8 +22,8 @@
     ?>
   </header>
   <main class="wallpaper">
-    <h1>Bienvenu</h1>
-    <a class="link" href="https://github.com/dorian-ouhendi/module-connexion.git"><h2>Github</h2></a>
+      <h1>Bienvenu</h1>
+      <a class="link" href="https://github.com/dorian-ouhendi/module-connexion.git"><h2>Github</h2></a>
   </main>
 </body>
 </html>
